@@ -1,5 +1,5 @@
 from flask import Flask, Blueprint, render_template, request, send_file
-from more_insights import get_job
+from src.flask_app.more_insights import get_job
 
 from src.insights.jobs import (
     read,
